@@ -1,0 +1,304 @@
+{
+  "menu": [
+    "all",
+    "documentations",
+    "design tools",
+    "frontend tools",
+    "javascript libraries",
+    "typography",
+    "color",
+    "icons",
+    "HTML templates",
+    "code snippets"
+  ],
+
+  "tools": [
+    {
+      "name": "UIVERSE.IO",
+      "link": "https://uiverse.io/",
+      "logo": "",
+      "description": "Library of free and customizable UI elements made with CSS or Tailwind",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Color Hunt",
+      "link": "https://colorhunt.co/",
+      "logo": "https://designresourc.es/assets/image/5ea0291287be017411f4dc60_colorhunt-p-500.jpeg",
+      "description": "Free and open platform for color inspiration",
+      "menu": "color"
+    },
+    {
+      "name": "HTML",
+      "link": "https://devdocs.io/html/",
+      "logo": "https://www.w3.org/html/logo/img/mark-only-icon.png",
+      "description": "Documentation for HTML",
+      "menu": "documentations"
+    },
+    {
+      "name": "CSS",
+      "link": "https://devdocs.io/css/",
+      "logo": "https://joshmartin.ch/app/uploads/2017/10/css3.svg",
+      "description": "Documentation for CSS",
+      "menu": "documentations"
+    },
+    {
+      "name": "Streamline",
+      "link": "https://www.streamlinehq.com/",
+      "logo": "https://designresourc.es/assets/image/5f197caa77a6a13ee805e0eb_streamline.png",
+      "description": "Over 30,000 something icons",
+      "menu": "icons"
+    },
+    {
+      "name": "Feather Icons",
+      "link": "https://feathericons.com/",
+      "logo": "https://designresourc.es/assets/image/5ea6cfa62fa37e32bd2ca95c_5e9b783638205aab56d08b62_feather.png",
+      "description": "Simply beautiful open source icons",
+      "menu": "icons"
+    },
+    {
+      "name": "Ionicons",
+      "link": "https://ionic.io/ionicons/",
+      "logo": "https://designresourc.es/assets/image/5ea6cfa7fadd3cf6d4d5ca73_5e9b78301b847f68844f9e05_ionicons.png",
+      "description": "Lovingly hand-crafted. Open source icons.",
+      "menu": "icons"
+    },
+    {
+      "name": "Fontawesome",
+      "link": "https://fontawesome.com/",
+      "logo": "https://designresourc.es/assets/image/5ea6cf4e2fa37ecdf92c4d58_5ea4667e8ad6b62e139228cc_JqER8seZ_400x400.png",
+      "description": "The web's most popular icon set and toolkit",
+      "menu": "icons"
+    },
+    {
+      "name": "CSS.gg",
+      "link": "https://css.gg/",
+      "logo": "https://designresourc.es/assets/image/5ea6cf40607f88bf2a46f2b1_5ea487f60e3498b2143435c6_logo%20(24).png",
+      "description": "Open-source CSS, SVG and Figma UI Icons",
+      "menu": "icons"
+    },
+    {
+      "name": "Material Icons",
+      "link": "https://m2.material.io/icons/",
+      "logo": "https://designresourc.es/assets/image/5ea6cf7013c0020120b0a1e9_5e9b7861572a494adcce5d74_google.png",
+      "description": "Delightful, beautifully crafted symbols for common actions and items",
+      "menu": "icons"
+    },
+    {
+      "name": "Icons8",
+      "link": "https://icons8.com/icons",
+      "logo": "https://designresourc.es/assets/image/5ea6cf712fa37e16e52c6bd7_5ea0aca1f1271e01b71e7e87_pMw2UlcW_400x400.jpeg",
+      "description": "1,318,900 free icons",
+      "menu": "icons"
+    },
+    {
+      "name": "Khroma",
+      "link": "https://www.khroma.co/",
+      "logo": "https://designresourc.es/assets/image/5ea6cf69a13e986dd80ffa3f_5ea1af0ffe57820563564805_logo%20(1).png",
+      "description": "Uses AI to learn which colors you like and creates palettes",
+      "menu": "color"
+    },
+    {
+      "name": "Devdocs.io",
+      "link": "https://devdocs.io/",
+      "logo": "",
+      "description": "DevDocs combines multiple API documentations ",
+      "menu": "documentations"
+    },
+    {
+      "name": "Figma",
+      "link": "https://figma.com/",
+      "logo": "https://designresourc.es/assets/image/5ea6cfa29a5ca9162765aed7_5ea04e67bc13ef6060f34b23_figma.png",
+      "description": "Design and collaborate all in the browser",
+      "menu": "design tools"
+    },
+    {
+      "name": "Draw.io",
+      "link": "https://draw.io/",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAllBMVEXwhwXfbAz////dYQDwxK/fagDhbwvwhQD97ePwgwDwhxD+8+r//vzifkbxlEjxjijgcSHkhkvvfAD2uofvvaTki1voegndXQD34NTrfwfkdAr75NP3w5niezz89O/118jnmW/tsZL1rnT0qmrxlDz5zav51r7ym0/2vZHxo2nhdjTxjjbpoHvjg1DcVQD1s3zrqIfmlGU7M8bdAAADoUlEQVRoge3b2VriMBQA4JAQQ6AOEpZ2rJYWFRUZxfd/ubFDygfN3iZ0LnouwfTnZOtJEQBhupkScL0g400KIYAPjF6T/YEpe4AgZVdFj8FS8EQ7cOkGjDtgAZl2oZZwR24fffwfQeQRGGV0LA/KAu579PklHSli+xoMpm9QFy+B7mv0QcuWcAiW/DKwEL6HgNnW6Cb3/lkyHhndbPfbvzudGN3oFnuHLd2Bb9jW9Q1bu55he9cv7OB6hV1cn7CT6xF2c/3Bju5NR6432NX1BTu7nmB31w/cwPUCN3F9wI1cD3Aztz1sU+dEj4LbHqap0U1EdjBoW+vRJ6N7QBK3PWwqZKXptocJ0Pd0cqdwW8Nsrp7TkwKpWA9d/cGV/bKKnL/yRzq2nmDG19L6E1cRD48vZZ86tx1Mv3hyZyOJB9HxtUKbcBuYUE4szgl04B9moB7fMlbN033hU+gSQLzzt/qEG8P0mSeWXwL4u5pa+oSbwtW+sa7nFfM3EkPCzWC6OV49EtLCu+z4lnyfbAef7kdD8eKo4GtJuWNV4V5WszfdtavPFBtcZ5h8RJq+RNXUmpkSdoWZfu6gNX/bmLAbfLr5KhLCu2rjNk0tN5ipJxVPeMGH39jRLjCdG/fCmK+lhbmnrWEyNu/9eM+X985fxoxvzJkulzjh25lFwnYwOW3MulTwjP/V0iJhq+qWpVaLpKoAJhYJ27jVGpJV5RcJW1YAli6htjPVtgJQuYSeB+OPuzOEsHZ8Maqm1jBG5yFpJXEJe/2an8Ub773t/rC/jVUyjh/3hwMfYThcnEWRi7Lo0tcRhyQRrRWrE+/W6lYw+66PuODSd3Xzf5cQj5ol+2g4pNbvYnX3tFSVMZJOmsTUbKZ/AmHxJYLkBlztkZqoFWU11+ZQL7kDx8Z0YXY5Mequ+buan44W8zU/CoDaR0w27kQssGzcWet8e7d3e7d3e7d3e7cDt856cIPVV5G2vrKpJyWnLtS2nrSon2XPr/DA2NG1Q7F4Xpjr20fSUzWeaU4pZdQ7SXI+es807RPpMaU8qOiGOBOeLknOg3SVL4byKJbK7y4wWhaKVov8TpwSogvACqlCe/5Vt5I0k7lgpbm8p5C6V4DlbnhY4QaHVW5oWOkGhtVuWFjjBoV1bkhY6waE9W442OAGg01uKNjogvuO3DCwzS9FQsBg3Al8AzY2/6PtG8a55e+tPMNxYvv7Mp8wjgsIyt/TXXeMb/Kfmvcv2Jhhu6NnRC4AAAAASUVORK5CYII=",
+      "description": "free online diagram software for making flowcharts",
+      "menu": "design tools"
+    },
+    {
+      "name": "Zeplin",
+      "link": "https://zeplin.io/",
+      "logo": "https://designresourc.es/assets/image/5ea6cfa49e03cf7683cb9ccd_5e9b7960b27cf68119999c39_zeplin.png",
+      "description": "Handoff designs with specs, assets and code snippets",
+      "menu": "design tools"
+    },
+    {
+      "name": "Transition css",
+      "link": "https://www.transition.style/",
+      "logo": "",
+      "description": "Drop-in CSS transitions",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Magic Pattern",
+      "link": "https://www.magicpattern.design/tools/gradient-generator",
+      "logo": "",
+      "description": "CSS Gradient Generator",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Softr",
+      "link": "https://www.softr.io/tools",
+      "logo": "https://softr-assets-eu-prod.s3.eu-central-1.amazonaws.com/applications/8f7af9fb-a550-425d-b327-48195c193a5f/assets/4c301aa0-5435-4c45-be89-dffc52dab690.svg",
+      "description": "A collection of free tools that you can use to create designs",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "100L5",
+      "link": "https://10015.io/",
+      "logo": "",
+      "description": "free all-in-one toolbox",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Get Waves",
+      "link": "https://getwaves.io/",
+      "logo": "",
+      "description": "Make some waves!",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Blob Maker",
+      "link": "https://www.blobmaker.app/",
+      "logo": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzJweCIgaGVpZ2h0PSI3MnB4IiB2aWV3Qm94PSIwIDAgNzIgNzIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUxLjMgKDU3NTQ0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5BcnRib2FyZCA4IENvcHkgMzwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJBcnRib2FyZC04LUNvcHktMyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTEzLjk4MDE5MDIsNDkuNjcxMTgxMyBDNi41MzI2MzgxNCwzNS44MDA0ODAyIDI1LjEzMTgxNTgsNi4wMzc2MTE2MiA0MS44Nzg5NTY4LDUuMDI2ODc4MzYgQzU4LjYyNjA5NzcsNC4wMTYxNDUxMSA3My41MjEyMDE5LDMxLjc1NzU0NzIgNjQuMjIxNjEzLDQ2LjYzODk4MTUgQzU0LjkyMjAyNDIsNjEuNTIwNDE1OCAyMS40Mjc3NDIzLDYzLjU0MTg4MjMgMTMuOTgwMTkwMiw0OS42NzExODEzIFoiIGlkPSJTaGFwZS1Db3B5LTYiIGZpbGw9IiNGRjk5MzMiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPgogICAgICAgIDxwYXRoIGQ9Ik00MC4xNzkxNTgyLDM1LjYzNzQwNTEgQzQ1LjgxMTg5NTksNDIuMTQyNzk4IDU0Ljc0MDkzNzYsNDYuNTc3MzEyOCA1NS42ODE4OTM5LDUxLjg4ODY3NzcgQzU2LjYyMjg1MDIsNTcuMjAwMDQyNSA0OS41NzU3MjExLDYzLjM4ODI1NzQgNDIuMzA5MjM4Nyw2NS40OTUxMjc3IEMzNS4wNDI3NTY0LDY3LjYwMTk5NzkgMjcuNTU2OTIwNyw2Ni42Mjc1MjM2IDIxLjI5MTE3NTcsNjMuMTk2NDkxIEMxNS4wMjU0MzA3LDU5Ljc2NTQ1ODQgOS45Nzk3NzYzNiw1My44Nzc4Njc0IDcuMTg5ODczNTYsNDYuOTU3NjIwNCBDNC4zOTk5NzA3Niw0MC4wMzczNzMzIDMuODY1ODE5NTMsMzEuMDg0NDcwMSA4LjAyMjM5MTQ1LDI0LjkxNjAwMjMgQzEyLjE3ODk2MzQsMTguNzQ3NTM0NiAyMS4wMjYyNTg0LDE1LjM2MzUwMjMgMjYuNjE4MTIyNywxNy45NTk2MjE3IEMzMi4yMDk5ODcsMjAuNTU1NzQxMSAzNC41NDY0MjA2LDI5LjEzMjAxMjIgNDAuMTc5MTU4MiwzNS42Mzc0MDUxIiBpZD0iU2hhcGUtQ29weS01IiBmaWxsPSIjRkYwMDY2IiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICA8cGF0aCBkPSJNNTIuNjgyNDQwMiw0My45OTIgQzUyLjY4MjQ0MDIsNTEuMzg0IDQ2LjI1MDQ0MDIsNTQuNiAzOS4yOTA0NDAyLDU0LjYgTDIyLjc3ODQ0MDIsNTQuNiBMMjIuNzc4NDQwMiwxNy4wMTYgTDM5LjA1MDQ0MDIsMTcuMDE2IEM0Mi42MDI0NDAyLDE3LjAxNiA0Ni4yNTA0NDAyLDE4LjE2OCA0OC41NTQ0NDAyLDIwLjUyIEM1MC4xMzg0NDAyLDIyLjE1MiA1MS4wNTA0NDAyLDI0LjUwNCA1MS4wNTA0NDAyLDI2Ljk1MiBDNTEuMDUwNDQwMiwzMC43NDQgNDguNjUwNDQwMiwzMy41MjggNDUuMDUwNDQwMiwzNS4wMTYgTDQ1LjA1MDQ0MDIsMzUuMTYgQzQ5Ljg1MDQ0MDIsMzUuOTI4IDUyLjY4MjQ0MDIsMzkuNDggNTIuNjgyNDQwMiw0My45OTIgWiBNNDEuNjQyNDQwMiwyOC40ODggQzQxLjY0MjQ0MDIsMjYuMTg0IDM5Ljk2MjQ0MDIsMjUuMTI4IDM3LjMyMjQ0MDIsMjUuMTI4IEwzMS45NDY0NDAyLDI1LjEyOCBMMzEuOTQ2NDQwMiwzMS44OTYgTDM3LjQxODQ0MDIsMzEuODk2IEM0MC4xNTQ0NDAyLDMxLjg5NiA0MS42NDI0NDAyLDMwLjYgNDEuNjQyNDQwMiwyOC40ODggWiBNNDMuMjI2NDQwMiw0Mi44ODggQzQzLjIyNjQ0MDIsNDAuNDg4IDQxLjIxMDQ0MDIsMzkuMzg0IDM4LjkwNjQ0MDIsMzkuMzg0IEwzMS45NDY0NDAyLDM5LjM4NCBMMzEuOTQ2NDQwMiw0Ni40NCBMMzguOTU0NDQwMiw0Ni40NCBDNDEuMzU0NDQwMiw0Ni40NCA0My4yMjY0NDAyLDQ1LjI4OCA0My4yMjY0NDAyLDQyLjg4OCBaIiBpZD0iQi1Db3B5IiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+CiAgICA8L2c+Cjwvc3ZnPg==",
+      "description": "Make organic SVG shapes for your next design",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Haikei",
+      "link": "https://haikei.app/",
+      "logo": "",
+      "description": "Haikei is a web app to generate stunning visual content",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Clippy",
+      "link": "https://bennettfeely.com/clippy/",
+      "logo": "",
+      "description": "The clip-path property allows you to make complex shapes in CSS",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "SheCodes",
+      "link": "https://generators.shecodes.io/",
+      "logo": "",
+      "description": "Everything you need to generate awesome CSS for your next project",
+      "menu": "frontend tools"
+    },
+    {
+      "name": "Google Fonts",
+      "link": "https://fonts.google.com/",
+      "logo": "https://designresourc.es/assets/image/5ea6cf3ffa94701139df77e0_5ea4d315d3a80f6efdc6df29_logo%20(25).png",
+      "description": "Making the web more beautiful, fast, and open through great typography",
+      "menu": "typography"
+    },
+    {
+      "name": "Font in Use",
+      "link": "https://fontsinuse.com/",
+      "logo": "https://designresourc.es/assets/image/5ea4d52970b505132140ed79_ed62f53fe5e5f795a3f6a265f8a978f6_400x400.png",
+      "description": "A searchable archive of typographic design",
+      "menu": "typography"
+    },
+    {
+      "name": "Font Fabric",
+      "link": "https://www.fontfabric.com/free-fonts/",
+      "logo": "https://designresourc.es/assets/image/5ea6cb06925f489ed6077d5f_5ea4dc5a7899693e15cab57e_yAlEkZei_400x400.png",
+      "description": "High-quality typefaces, calligraphy and lettering",
+      "menu": "typography"
+    },
+    {
+      "name": "Typo/graphic",
+      "link": "https://www.typographicposters.com/",
+      "logo": "https://designresourc.es/assets/image/5ea4d840c07d784add385c0c_barra-220x220b_400x400.png",
+      "description": "Connect to different cultures through poster design",
+      "menu": "typography"
+    },
+    {
+      "name": "Atropos Js",
+      "link": "https://atroposjs.com/",
+      "logo": "https://atroposjs.com/images/logo-inner.svg",
+      "description": "JavaScript library to create stunning touch-friendly 3D parallax hover effects.",
+      "menu": "javascript libraries"
+    },
+    {
+      "name": "Anime Js",
+      "link": "https://animejs.com/",
+      "logo": "",
+      "description": "Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library",
+      "menu": "javascript libraries"
+    },
+    {
+      "name": "GSAP",
+      "link": "https://gsap.com/",
+      "logo": "",
+      "description": " A wildly robust JavaScript animation library built for professionals",
+      "menu": "javascript libraries"
+    },
+    {
+      "name": "ScrollReveal",
+      "link": "https://scrollrevealjs.org/",
+      "logo": "https://scrollrevealjs.org/img/logomark.svg",
+      "description": "ScrollReveal is a JavaScript library for easily animating elements as they enter/leave the viewport",
+      "menu": "javascript libraries"
+    },
+    {
+      "name": "Locomotive Scroll",
+      "link": "https://locomotivemtl.github.io/locomotive-scroll/",
+      "logo": "",
+      "description": "A simple scroll library used by developers at Locomotive",
+      "menu": "javascript libraries"
+    },
+    {
+      "name": "Slick",
+      "link": "https://kenwheeler.github.io/slick/",
+      "logo": "",
+      "description": "the last carousel you'll ever need",
+      "menu": "javascript libraries"
+    },
+    {
+      "name": "Embla Carousel",
+      "link": "https://www.embla-carousel.com/",
+      "logo": "https://www.embla-carousel.com/static/embla-logo-dark-theme-blur-dd6671f5992e7089fd82e1f04db7370e.svg",
+      "description": "A lightweight carousel library with fluid motion and great swipe precision",
+      "menu": "javascript libraries"
+    },
+    {
+      "name": "Happy Hues",
+      "link": "https://www.happyhues.co/",
+      "logo": "https://designresourc.es/assets/image/5ea592f8c07d78e3663ba689_f7e1dd94-a807-44ba-adb0-8482164a0a0b.gif",
+      "description": "Curated colors in context",
+      "menu": "color"
+    },
+    {
+      "name": "Coolors",
+      "link": "https://coolors.co/",
+      "logo": "https://designresourc.es/assets/image/5ebff9260962176e64a111c1_Coolors.jpg",
+      "description": "Fast color schemes generator",
+      "menu": "color"
+    },
+    {
+      "name": "Brand Colors",
+      "link": "https://brandcolors.net/",
+      "logo": "https://designresourc.es/assets/image/5ea6caff9a5ca9698d6334ef_5ea57937dddc5f9ae38d9339_X8m4k_3Q_400x400.jpeg",
+      "description": "Biggest collection of official brand color codes",
+      "menu": "color"
+    },
+    {
+      "name": "HTML5 UP",
+      "link": "https://html5up.net/",
+      "logo": "",
+      "description": "Free HTML5 templates",
+      "menu": "HTML templates"
+    },
+    {
+      "name": "Webflow",
+      "link": "https://webflow.com/free-website-templates",
+      "logo": "",
+      "description": "Free Website Templates",
+      "menu": "HTML templates"
+    }
+  ]
+}

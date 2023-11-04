@@ -1,20 +1,38 @@
 import { useEffect, useState } from "react";
 import "./App.scss";
+import Content from "./components/Content";
 import Header from "./components/Header";
 import jsonData from "./data/data.json";
 
 const App = () => {
-  const [menu, setMenu] = useState<any>([]);
-  const [data, setData] = useState<any>([]);
-  const [filtered, setDataFilter] = useState<any>([]);
+  const { menu, tools } = jsonData;
+  const [data, setData] = useState<any>(tools);
+  const [filtered, setDataFilter] = useState<any>(tools);
   const [active, setActive] = useState<String>("all");
 
   useEffect(() => {
-    const { menu, tools } = jsonData;
-    setMenu(menu);
-    setData(tools);
-    setDataFilter(tools);
+    const fav = localStorage.getItem("inspect-resource-favorites");
+    if (fav) {
+      const favList = JSON.parse(fav);
+
+      addFavoriteFlag(favList);
+    }
   }, []);
+
+  const addFavoriteFlag = (favoriteList: any) => {
+    const updatedData = [...filtered];
+
+    updatedData.forEach((obj, index) => {
+      const isTarget = favoriteList.some(
+        (target: any) => target.name === obj.name
+      );
+      if (isTarget) {
+        updatedData[index] = { ...obj, isFavorite: true };
+      }
+    });
+
+    setDataFilter(updatedData);
+  };
 
   const selectSideMenu = (menu: String) => {
     if (menu === "all") {
@@ -24,18 +42,6 @@ const App = () => {
 
     const filteredData = data.filter((item: any) => item.menu === menu);
     setDataFilter(filteredData);
-  };
-
-  const openNewTab = (link: any) => {
-    window.open(link, "_blank");
-  };
-
-  const comingSoon = () => {
-    return (
-      <>
-        <div className="soon">Coming Soon!</div>
-      </>
-    );
   };
 
   return (
@@ -76,42 +82,8 @@ const App = () => {
               })}
             </ul>
           </div>
-          <div className="content">
-            {filtered.length > 0
-              ? filtered.map((tool: any, index: any) => {
-                  return (
-                    <div
-                      className="card"
-                      key={index}
-                      onClick={() => openNewTab(tool.link)}
-                    >
-                      <div className="card-content">
-                        {tool.logo !== "" ? (
-                          <img
-                            src={tool.logo}
-                            width={80}
-                            height={80}
-                            alt=""
-                            className="logo"
-                          />
-                        ) : (
-                          <img
-                            width={80}
-                            height={80}
-                            src="./my-logo.png"
-                            alt=""
-                            className="default-logo"
-                          />
-                        )}
-                        <div className="title-details">
-                          <div className="name">{tool.name}</div>
-                          <div className="description">{tool.description}</div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })
-              : comingSoon()}
+          <div style={{ width: "100%" }}>
+            <Content filtered={filtered} />
           </div>
         </div>
       </div>

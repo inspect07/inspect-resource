@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.80c0fb4e.css",
-    "main.js": "/static/js/main.4148f345.js",
-    "static/js/787.cd9cefe6.chunk.js": "/static/js/787.cd9cefe6.chunk.js",
+    "main.css": "/static/css/main.e6a09507.css",
+    "main.js": "/static/js/main.eb78cd7b.js",
+    "static/js/787.730e41ea.chunk.js": "/static/js/787.730e41ea.chunk.js",
+    "static/media/sketch.png": "/static/media/sketch.c0ec2c9721ff72f74f35.png",
+    "static/media/3d-developer-front.png": "/static/media/3d-developer-front.aec7975d91ec993901f1.png",
+    "static/media/starfish.png": "/static/media/starfish.b471ed4e35d167a9d809.png",
+    "static/media/dicks-sporting-goods.png": "/static/media/dicks-sporting-goods.6897a15e6643e8912afc.png",
+    "static/media/3d-developer-whole-body.png": "/static/media/3d-developer-whole-body.518b21c5edf6e8819e9a.png",
+    "static/media/innovations-groups.png": "/static/media/innovations-groups.46d3c07ef064cd992349.png",
+    "static/media/dribble.png": "/static/media/dribble.c4e0a987a938fa47edda.png",
+    "static/media/yondu.jpg": "/static/media/yondu.b33dabaa58f23218d304.jpg",
+    "static/media/feathericons.png": "/static/media/feathericons.34d5e14914cdd0936df5.png",
+    "static/media/my-logo-text-light.png": "/static/media/my-logo-text-light.f3b9d01f063db588cfcf.png",
+    "static/media/lawsofux.png": "/static/media/lawsofux.7158fb2296ceee562b5a.png",
+    "static/media/quickstrike.jpeg": "/static/media/quickstrike.8fd18baff2e741889d47.jpeg",
+    "static/media/checklist.png": "/static/media/checklist.775c97c3a2f6ffca66bb.png",
+    "static/media/vwala.png": "/static/media/vwala.824497a5e2a91ac9bc89.png",
+    "static/media/my-logo-light.png": "/static/media/my-logo-light.979aabc782fcb7c4b614.png",
+    "static/media/openpeeps.png": "/static/media/openpeeps.65bbc5452bd3fb7b3145.png",
+    "static/media/figma-resource.png": "/static/media/figma-resource.16606a349dc902a5cd44.png",
+    "static/media/heydesigner.png": "/static/media/heydesigner.d55de9d4f7a30c849109.png",
+    "static/media/samsung-logo.avif": "/static/media/samsung-logo.a4948e96b4260ec40684.avif",
+    "static/media/blush.svg": "/static/media/blush.687b3aafb57311db3853719182751d72.svg",
     "index.html": "/index.html",
-    "main.80c0fb4e.css.map": "/static/css/main.80c0fb4e.css.map",
-    "main.4148f345.js.map": "/static/js/main.4148f345.js.map",
-    "787.cd9cefe6.chunk.js.map": "/static/js/787.cd9cefe6.chunk.js.map"
+    "main.e6a09507.css.map": "/static/css/main.e6a09507.css.map",
+    "main.eb78cd7b.js.map": "/static/js/main.eb78cd7b.js.map",
+    "787.730e41ea.chunk.js.map": "/static/js/787.730e41ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80c0fb4e.css",
-    "static/js/main.4148f345.js"
+    "static/css/main.e6a09507.css",
+    "static/js/main.eb78cd7b.js"
   ]
 }
